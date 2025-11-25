@@ -25,3 +25,4 @@ const graph = new StateGraph(StateAnnotation)
 // 运行
 const result = await graph.invoke({ message: '你好！' });
 console.log(result.message);
+console.log(123)
