@@ -10,7 +10,8 @@ const StateAnnotation = Annotation.Root({
 
 // 创建 LLM 节点
 const llmNode = async (state: typeof StateAnnotation.State) => {
-  const model = new ChatOpenAI({ model: 'gpt-3.5-turbo' });
+//   const model = new ChatOpenAI({ model: 'gpt-3.5-turbo' });
+  const model = new ChatOpenAI({ model: process.env.OPENAI_MODEL })
   const response = await model.invoke([new HumanMessage(state.message)]);
   return { message: response.content };
 };
