@@ -1,0 +1,15 @@
+{
+    "graphs": {
+        "basicGraph": "./quick-start/1.graph.ts:basicGraph",
+        "annotationGraph": "./quick-start/2.annotation.ts:annotationGraph",
+        "llmNodeGraph": "./quick-start/3.nodes.ts:llmNodeGraph",
+        "linearGraph": "./quick-start/4.edges.ts:linearGraph",
+        "branchGraph": "./quick-start/4.edges.ts:branchGraph",
+        "loopGraph": "./quick-start/4.edges.ts:loopGraph",
+        "parallelGraph": "./quick-start/4.edges.ts:parallelGraph",
+        "streamGraph": "./quick-start/5.stream.ts:streamGraph",
+        "toolsGraph": "./quick-start/6.tools.ts:toolsGraph",
+        "memoryGraph": "./quick-start/7.memory.ts:memoryGraph",
+        "humanInTheLoopGraph": "./quick-start/8.human-in-the-loop.ts:humanInTheLoopGraph"
+    }
+}
